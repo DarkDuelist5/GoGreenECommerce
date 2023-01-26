@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #627ca8;
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+          
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: rgb(228, 240, 240);
+        }
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+        .bcontainer{
+            background-color: rgb(252, 252, 239);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="about-section">
+        <h1>About Us </h1>
+        <p>At GoGreen, it's our aim to improve the world one story at a time by reporting environmental news that
+            inspires readers to share and take action. Our goal is to shine light on the biggest issues in
+            sustainability, from eco-friendly technology to animal welfare and everything in between..Our aim is to encourage people to spend more time with nature and do a little towards its protection and encourage our society towards the "Chipko Movement".</p>
+        <p>One touch of nature makes the whole world kin <br> -William Shakespeare</p>
+    </div>
+<div class="bcontainer">
+
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                
+                <div class="container">
+                    <h2>Kunal Kartikeya</h2>
+                    <p class="title">CEO & Founder</p>
+
+                    <p>kunal1401@gmail.com</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card">
+
+                <div class="container">
+                    <h2>Aditya Yadav</h2>
+                    <p class="title">Backend Manager</p>
+                    
+                    <p>Adityayadav09@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card">
+                
+                <div class="container">
+                    <h2>Vikalp Srivastava</h2>
+                    <p class="title">Chief Financial Officer</p>
+                    
+                    <p>vikalpsri090102@gmail.com</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                
+                <div class="container">
+                    <h2>Prerna Singh</h2>
+                    <p class="title">Web Designer</p>
+                    
+                    <p>prernasingh76@gmail.com</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <h2 style="text-align:center">Special Thanks To:</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                
+                <div class="container">
+                    <h2>Dr.Mahendra Kumar Gurve</h2>
+                    <p class="title">Mentor</p>
+                    
+                    <p>mahendra.gurve@mail.jiit.ac.in</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
